@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- تحسينات محرك البحث ليظهر الموقع عند البحث عن رائد كرفي -->
-    <title>رائد كرفي | المطور والمحترف التقني</title>
-    <meta name="description" content="الموقع الرسمي لرائد كرفي - استعراض للمهارات التقنية، الشغف بالسيارات الرياضية، واللياقة البدنية.">
-    <meta name="keywords" content="رائد, رائد كرفي, Raed, Raed Kerfi">
+    <title>رائد كرفي | رائد التكنولوجيا والتميز</title>
+    <meta name="description" content="الموقع الرسمي لرائد كرفي - مطور ويب ومبرمج جزائري من مواليد 2010.">
+    <meta name="keywords" content="رائد, رائد كرفي, Raed, Raed Kerfi, مبرمج جزائري">
     
     <style>
         :root {
@@ -27,14 +26,14 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
 
         header {
             text-align: center;
-            padding: 60px 20px;
+            padding: 50px 20px;
             background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
             border-radius: 15px;
             margin-bottom: 30px;
@@ -54,54 +53,47 @@
             font-weight: bold;
         }
 
+        .profile-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
         .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
             border: 4px solid var(--accent-color);
             object-fit: cover;
-            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
         }
 
         .section {
             background-color: var(--card-bg);
-            padding: 25px;
+            padding: 30px;
             border-radius: 12px;
             margin-bottom: 25px;
-            border-left: 5px solid var(--accent-color);
+            border-right: 5px solid var(--accent-color);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
 
         .section h2 {
             margin-top: 0;
             color: var(--accent-color);
+            font-size: 1.5rem;
         }
 
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
+        .info-list {
+            list-style: none;
+            padding: 0;
         }
 
-        .card {
-            background-color: #1f2937;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        .info-list li {
+            margin-bottom: 12px;
+            font-size: 1.1rem;
         }
 
-        .card img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-        }
-
-        .card-content {
-            padding: 15px;
-        }
-
-        .card-content h3 {
-            margin-top: 0;
-            font-size: 1.2rem;
+        .info-list strong {
+            color: var(--accent-color);
         }
 
         footer {
@@ -115,53 +107,31 @@
 <body>
 
     <div class="container">
-        <!-- الهيدر بصيغة الغائب وباسمك الكامل -->
+        
         <header>
-            <!-- صورة بروفايل تقنية جاهزة تعمل تلقائياً -->
-            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400" alt="رائد كرفي" class="profile-img">
             <h1>رائد كرفي | Raed Kerfi</h1>
-            <p>مطور ويب، مبرمج، وشغف لا ينتهي بالتميز الهندسي والرياضي</p>
+            <p>مطور ويب، مبرمج، وشغف بالهندسة والرياضة</p>
         </header>
 
-        <!-- قسم النبذة الشخصية (يتحدث عنك) -->
-        <div class="section">
-            <h2>من هو رائد كرفي؟</h2>
-            <p>يُمثّل <strong>رائد كرفي</strong> عقلية برمجية واعدة تجمع بين الشغف التقني والتميز الرياضي المستمر. يمتلك رؤية متقدمة في تطوير الويب والبرمجة، ويسعى دائماً لبناء وتطوير منصات رقمية ذكية واحترافية تعكس قدراته الفريدة وعقليته الطموحة في عالم التكنولوجيا.</p>
+        <!-- صورتك مع السيارة مدمجة وتعمل تلقائياً هنا -->
+        <div class="profile-container">
+            <img src="https://raed-2010.github.io/1000040258.jpg" alt="رائد كرفي مع السيارة" class="profile-img">
         </div>
 
-        <!-- قسم الاهتمامات والمهارات مع صور جاهزة من الإنترنت داخل الكود -->
+        <!-- قسم التعريف الرسمي -->
         <div class="section">
-            <h2>مجالات التميز والشغف</h2>
-            <div class="grid">
-                
-                <!-- كارد البرمجة -->
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?w=500" alt="برمجة وتطوير">
-                    <div class="card-content">
-                        <h3>التطوير والبرمجة</h3>
-                        <p>تطوير مواقع الويب وتصميم الأنظمة البرمجية الذكية مع التركيز على الكفاءة والأداء العالي.</p>
-                    </div>
-                </div>
+            <h2>التعريف الشخصي</h2>
+            <p>يُعتبر <strong>رائد كرفي</strong> عقلية تقنية واعدة ومطوّر ويب طموح من <strong>الجزائر</strong>، وهو من مواليد عام <strong>2010</strong>. يتميز برؤية هندسية متقدمة تسبق سنه، ويسعى لترك بصمة فريدة في عالم البرمجة والتطوير التقني الرقمي.</p>
+        </div>
 
-                <!-- كارد السيارات -->
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=500" alt="سيارات رياضية">
-                    <div class="card-content">
-                        <h3>عالم السيارات المحترفة</h3>
-                        <p>شغف عميق بتحليل تصاميم وميكانيك السيارات الرياضية الخارقة وعالم المحركات عالي الأداء.</p>
-                    </div>
-                </div>
-
-                <!-- كارد اللياقة البدنية -->
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=500" alt="رياضة ولياقة">
-                    <div class="card-content">
-                        <h3>الرياضة والقوة البدنية</h3>
-                        <p>الالتزام بنمط حياة صحي ورياضي صارم يجمع بين القوة البدنية، اللياقة العالية، والانضباط.</p>
-                    </div>
-                </div>
-
-            </div>
+        <!-- قسم المهارات والاهتمامات -->
+        <div class="section">
+            <h2>مجالات التميز والاهتمام</h2>
+            <ul class="info-list">
+                <li><strong>تطوير البرمجيات:</strong> تصميم وإعداد مواقع الويب والأنظمة الذكية بكفاءة عالية وبنية برمجية متقنة.</li>
+                <li><strong>الهندسة والمحركات:</strong> شغف عميق بالسيارات الرياضية الخارقة، وعالم المحركات والتصميم الهندسي عالي الأداء.</li>
+                <li><strong>اللياقة البدنية:</strong> الالتزام بنمط حياة رياضي صارم يجمع بين القوة البدنية والانضباط العالي.</li>
+            </ul>
         </div>
 
         <footer>
@@ -171,4 +141,5 @@
 
 </body>
 </html>
+
 
